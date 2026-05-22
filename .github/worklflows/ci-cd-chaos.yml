@@ -1,0 +1,66 @@
+name: CI-CD-Chaos-Recovery
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  deploy-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+
+    - name: Build Docker Images
+      run: |
+        docker compose build
+
+
+    - name: Save Previous Version
+      run: |
+        mkdir -p backups
+        docker images myapp -q > backups/previous-image.txt || true
+
+
+    - name: Start Containers
+      run: |
+        docker compose up -d
+
+
+    - name: Wait for Startup
+      run: sleep 15
+
+
+    - name: Health Check
+      run: |
+        chmod +x scripts/*.sh
+        ./scripts/healthcheck.sh
+
+
+    - name: Run Chaos Test
+      run: |
+        ./scripts/chaos.sh
+
+
+    - name: Wait for Recovery
+      run: sleep 10
+
+
+    - name: Show Recovery Logs
+      run: |
+        cat logs/recovery.log || true
+
+
+    - name: Show Incident Logs
+      run: |
+        cat logs/incidents.log || true
