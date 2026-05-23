@@ -7,13 +7,13 @@ on:
 
 jobs:
 
-  deploy-test:
+  deploy:
 
     runs-on: ubuntu-latest
 
     steps:
 
-    - name: Checkout Code
+    - name: Checkout Repository
       uses: actions/checkout@v4
 
 
@@ -21,18 +21,12 @@ jobs:
       uses: docker/setup-buildx-action@v3
 
 
-    - name: Build Docker Images
+    - name: Build Containers
       run: |
         docker compose build
 
 
-    - name: Save Previous Version
-      run: |
-        mkdir -p backups
-        docker images myapp -q > backups/previous-image.txt || true
-
-
-    - name: Start Containers
+    - name: Start Application
       run: |
         docker compose up -d
 
@@ -43,17 +37,14 @@ jobs:
 
     - name: Health Check
       run: |
-        chmod +x scripts/*.sh
+        chmod +x scripts/healthcheck.sh
         ./scripts/healthcheck.sh
 
 
-    - name: Run Chaos Test
+    - name: Inject Chaos
       run: |
+        chmod +x scripts/chaos.sh
         ./scripts/chaos.sh
-
-
-    - name: Wait for Recovery
-      run: sleep 10
 
 
     - name: Show Recovery Logs
