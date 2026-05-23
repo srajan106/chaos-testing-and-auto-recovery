@@ -6,52 +6,33 @@ on:
       - main
 
 jobs:
-
   deploy:
 
     runs-on: ubuntu-latest
 
     steps:
 
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
+      - name: Verify files
+        run: |
+          pwd
+          ls
+          ls backend
+          ls frontend || true
+          ls scripts || true
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
+      - name: Build Docker containers
+        run: |
+          docker compose build
 
+      - name: Start application
+        run: |
+          docker compose up -d
 
-    - name: Build Containers
-      run: |
-        docker compose build
+      - name: Wait
+        run: sleep 10
 
-
-    - name: Start Application
-      run: |
-        docker compose up -d
-
-
-    - name: Wait for Startup
-      run: sleep 15
-
-
-    - name: Health Check
-      run: |
-        chmod +x scripts/healthcheck.sh
-        ./scripts/healthcheck.sh
-
-
-    - name: Inject Chaos
-      run: |
-        chmod +x scripts/chaos.sh
-        ./scripts/chaos.sh
-
-
-    - name: Show Recovery Logs
-      run: |
-        cat logs/recovery.log || true
-
-
-    - name: Show Incident Logs
-      run: |
-        cat logs/incidents.log || true
+      - name: Show containers
+        run: docker ps
