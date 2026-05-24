@@ -29,4 +29,4 @@ HEALTHCHECK --interval=10s --timeout=5s --retries=3 \
 CMD curl -f http://localhost:5000/health || exit 1
 
 # Run app
-CMD ["python", "app.py"]
+CMD ["sh", "-c", "exec python app.py"]

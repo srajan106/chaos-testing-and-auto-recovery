@@ -2,29 +2,30 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>CI/CD Chaos Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>CI/CD Chaos Dashboard</h1>
+<h1>CI/CD Chaos Dashboard</h1>
 
-    <div class="card">
-        <h2>System Status</h2>
+<div class="card">
+    <h2>System Status</h2>
 
-        <p><b>Status:</b> <span id="status">Loading...</span></p>
-        <p><b>Time:</b> <span id="time"></span></p>
-        <p><b>Recoveries:</b> <span id="recoveries"></span></p>
-        <p><b>Server Load:</b> <span id="load"></span></p>
-    </div>
+    <p id="status">Loading...</p>
+    <p id="time"></p>
+    <p id="recoveries"></p>
+    <p id="load"></p>
+</div>
 
-    <div class="buttons">
-        <button onclick="refresh()">Refresh</button>
-        <button onclick="triggerChaos()">Trigger Chaos</button>
-    </div>
+<button onclick="refresh()">Refresh</button>
 
-    <script src="script.js"></script>
+<!-- 🔥 FIXED CHAOS BUTTON -->
+<button onclick="triggerChaos()">Trigger Chaos</button>
+
+<script src="script.js"></script>
 
 </body>
 
