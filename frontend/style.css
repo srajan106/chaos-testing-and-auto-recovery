@@ -1,41 +1,64 @@
-body{
-
-background:#111;
-
-color:white;
-
-font-family:Arial;
-
-text-align:center;
-
-padding:40px;
-
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
 }
 
-.card{
-
-margin:auto;
-
-width:400px;
-
-padding:25px;
-
-border-radius:20px;
-
-background:#222;
-
-box-shadow:0 0 20px gray;
-
+h1 {
+    margin-bottom: 30px;
 }
 
-button{
+.card {
+    margin: auto;
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background: #1e1e1e;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
 
-padding:15px;
+.card:hover {
+    transform: scale(1.03);
+}
 
-margin-top:20px;
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
 
-font-size:18px;
+/* Status colors (used dynamically in JS) */
+#status {
+    font-weight: bold;
+    font-size: 20px;
+}
 
-cursor:pointer;
+/* Buttons */
+button {
+    padding: 15px 25px;
+    margin: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: #00c6ff;
+    color: black;
+    transition: 0.3s;
+}
 
+button:hover {
+    background: #0072ff;
+    color: white;
+}
+
+/* Separate chaos button style */
+button:nth-child(2) {
+    background: #ff4d4d;
+    color: white;
+}
+
+button:nth-child(2):hover {
+    background: #cc0000;
 }

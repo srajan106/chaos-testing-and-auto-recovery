@@ -1,0 +1,772 @@
+2026-05-24 13:08:14,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2026-05-24 13:08:14,767 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 13:13:21,126 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2026-05-24 13:13:21,126 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 13:16:24,640 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2026-05-24 13:16:24,642 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 13:16:34,177 - INFO - Health checked: load=82, status=Healthy
+2026-05-24 13:16:34,178 - INFO - 127.0.0.1 - - [24/May/2026 13:16:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:16:44,276 - INFO - Health checked: load=45, status=Healthy
+2026-05-24 13:16:44,277 - INFO - 127.0.0.1 - - [24/May/2026 13:16:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:16:54,353 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:16:54,355 - INFO - 127.0.0.1 - - [24/May/2026 13:16:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:17:04,464 - INFO - Health checked: load=49, status=Healthy
+2026-05-24 13:17:04,465 - INFO - 127.0.0.1 - - [24/May/2026 13:17:04] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:17:14,569 - INFO - Health checked: load=92, status=High Load
+2026-05-24 13:17:14,571 - INFO - 127.0.0.1 - - [24/May/2026 13:17:14] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:17:24,655 - INFO - Health checked: load=67, status=Healthy
+2026-05-24 13:17:24,656 - INFO - 127.0.0.1 - - [24/May/2026 13:17:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:17:34,740 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:17:34,741 - INFO - 127.0.0.1 - - [24/May/2026 13:17:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:17:44,808 - INFO - Health checked: load=23, status=Healthy
+2026-05-24 13:17:44,809 - INFO - 127.0.0.1 - - [24/May/2026 13:17:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:17:54,876 - INFO - Health checked: load=73, status=Healthy
+2026-05-24 13:17:54,877 - INFO - 127.0.0.1 - - [24/May/2026 13:17:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:04,953 - INFO - Health checked: load=26, status=Healthy
+2026-05-24 13:18:04,954 - INFO - 127.0.0.1 - - [24/May/2026 13:18:04] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:15,043 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:18:15,044 - INFO - 127.0.0.1 - - [24/May/2026 13:18:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:25,117 - INFO - Health checked: load=41, status=Healthy
+2026-05-24 13:18:25,118 - INFO - 127.0.0.1 - - [24/May/2026 13:18:25] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:35,200 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:18:35,201 - INFO - 127.0.0.1 - - [24/May/2026 13:18:35] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:42,591 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:18:42,592 - INFO - 172.18.0.1 - - [24/May/2026 13:18:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:45,279 - INFO - Health checked: load=37, status=Healthy
+2026-05-24 13:18:45,280 - INFO - 127.0.0.1 - - [24/May/2026 13:18:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:45,595 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:18:45,596 - INFO - 172.18.0.1 - - [24/May/2026 13:18:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:48,126 - WARNING - Chaos endpoint triggered! Simulating crash...
+2026-05-24 13:18:49,106 - INFO - Recovery detected. Incremented recovery count.
+2026-05-24 13:18:49,114 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2026-05-24 13:18:49,115 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 13:18:50,987 - INFO - Health checked: load=84, status=Healthy
+2026-05-24 13:18:50,989 - INFO - 172.18.0.1 - - [24/May/2026 13:18:50] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:51,597 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:18:51,599 - INFO - 172.18.0.1 - - [24/May/2026 13:18:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:54,598 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:18:54,599 - INFO - 172.18.0.1 - - [24/May/2026 13:18:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:54,604 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:18:54,605 - INFO - 172.18.0.1 - - [24/May/2026 13:18:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:55,470 - INFO - Health checked: load=90, status=High Load
+2026-05-24 13:18:55,471 - INFO - 172.18.0.1 - - [24/May/2026 13:18:55] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:56,987 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:18:56,988 - INFO - 172.18.0.1 - - [24/May/2026 13:18:56] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:57,604 - INFO - Health checked: load=33, status=Healthy
+2026-05-24 13:18:57,607 - INFO - 172.18.0.1 - - [24/May/2026 13:18:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:57,943 - INFO - Health checked: load=27, status=Healthy
+2026-05-24 13:18:57,944 - INFO - 172.18.0.1 - - [24/May/2026 13:18:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:58,542 - INFO - Health checked: load=40, status=Healthy
+2026-05-24 13:18:58,544 - INFO - 172.18.0.1 - - [24/May/2026 13:18:58] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:58,649 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:18:58,649 - INFO - 127.0.0.1 - - [24/May/2026 13:18:58] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:59,138 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:18:59,139 - INFO - 172.18.0.1 - - [24/May/2026 13:18:59] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:18:59,547 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:18:59,548 - INFO - 172.18.0.1 - - [24/May/2026 13:18:59] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:00,463 - WARNING - Chaos endpoint triggered! Simulating crash...
+2026-05-24 13:19:01,427 - INFO - Recovery detected. Incremented recovery count.
+2026-05-24 13:19:01,433 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2026-05-24 13:19:01,434 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 13:19:02,022 - INFO - Health checked: load=53, status=Healthy
+2026-05-24 13:19:02,024 - INFO - 172.18.0.1 - - [24/May/2026 13:19:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:03,594 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:19:03,595 - INFO - 172.18.0.1 - - [24/May/2026 13:19:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:03,599 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:19:03,601 - INFO - 172.18.0.1 - - [24/May/2026 13:19:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:06,599 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:19:06,601 - INFO - 172.18.0.1 - - [24/May/2026 13:19:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:09,608 - INFO - Health checked: load=70, status=Healthy
+2026-05-24 13:19:09,615 - INFO - 172.18.0.1 - - [24/May/2026 13:19:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:11,043 - INFO - Health checked: load=89, status=High Load
+2026-05-24 13:19:11,045 - INFO - 127.0.0.1 - - [24/May/2026 13:19:11] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:12,607 - INFO - Health checked: load=21, status=Healthy
+2026-05-24 13:19:12,609 - INFO - 172.18.0.1 - - [24/May/2026 13:19:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:15,603 - INFO - Health checked: load=38, status=Healthy
+2026-05-24 13:19:15,605 - INFO - 172.18.0.1 - - [24/May/2026 13:19:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:18,828 - INFO - Health checked: load=57, status=Healthy
+2026-05-24 13:19:18,829 - INFO - 172.18.0.1 - - [24/May/2026 13:19:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:21,160 - INFO - Health checked: load=66, status=Healthy
+2026-05-24 13:19:21,161 - INFO - 127.0.0.1 - - [24/May/2026 13:19:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:21,671 - INFO - Health checked: load=80, status=Healthy
+2026-05-24 13:19:21,672 - INFO - 172.18.0.1 - - [24/May/2026 13:19:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:24,872 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:19:24,874 - INFO - 172.18.0.1 - - [24/May/2026 13:19:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:27,842 - INFO - Health checked: load=51, status=Healthy
+2026-05-24 13:19:27,844 - INFO - 172.18.0.1 - - [24/May/2026 13:19:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:30,835 - INFO - Health checked: load=68, status=Healthy
+2026-05-24 13:19:30,836 - INFO - 172.18.0.1 - - [24/May/2026 13:19:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:31,382 - INFO - Health checked: load=29, status=Healthy
+2026-05-24 13:19:31,383 - INFO - 127.0.0.1 - - [24/May/2026 13:19:31] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:33,843 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:19:33,845 - INFO - 172.18.0.1 - - [24/May/2026 13:19:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:36,846 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:19:36,847 - INFO - 172.18.0.1 - - [24/May/2026 13:19:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:39,869 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:19:39,870 - INFO - 172.18.0.1 - - [24/May/2026 13:19:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:41,483 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:19:41,484 - INFO - 127.0.0.1 - - [24/May/2026 13:19:41] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:42,837 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:19:42,838 - INFO - 172.18.0.1 - - [24/May/2026 13:19:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:45,837 - INFO - Health checked: load=66, status=Healthy
+2026-05-24 13:19:45,839 - INFO - 172.18.0.1 - - [24/May/2026 13:19:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:48,834 - INFO - Health checked: load=59, status=Healthy
+2026-05-24 13:19:48,835 - INFO - 172.18.0.1 - - [24/May/2026 13:19:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:51,551 - INFO - Health checked: load=41, status=Healthy
+2026-05-24 13:19:51,552 - INFO - 127.0.0.1 - - [24/May/2026 13:19:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:51,830 - INFO - Health checked: load=91, status=High Load
+2026-05-24 13:19:51,831 - INFO - 172.18.0.1 - - [24/May/2026 13:19:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:54,838 - INFO - Health checked: load=20, status=Healthy
+2026-05-24 13:19:54,842 - INFO - 172.18.0.1 - - [24/May/2026 13:19:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:19:57,830 - INFO - Health checked: load=95, status=High Load
+2026-05-24 13:19:57,831 - INFO - 172.18.0.1 - - [24/May/2026 13:19:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:00,837 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:20:00,838 - INFO - 172.18.0.1 - - [24/May/2026 13:20:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:01,642 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:20:01,643 - INFO - 127.0.0.1 - - [24/May/2026 13:20:01] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:03,840 - INFO - Health checked: load=89, status=High Load
+2026-05-24 13:20:03,841 - INFO - 172.18.0.1 - - [24/May/2026 13:20:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:06,830 - INFO - Health checked: load=53, status=Healthy
+2026-05-24 13:20:06,831 - INFO - 172.18.0.1 - - [24/May/2026 13:20:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:09,838 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:20:09,839 - INFO - 172.18.0.1 - - [24/May/2026 13:20:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:11,728 - INFO - Health checked: load=64, status=Healthy
+2026-05-24 13:20:11,729 - INFO - 127.0.0.1 - - [24/May/2026 13:20:11] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:12,841 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:20:12,842 - INFO - 172.18.0.1 - - [24/May/2026 13:20:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:15,836 - INFO - Health checked: load=92, status=High Load
+2026-05-24 13:20:15,837 - INFO - 172.18.0.1 - - [24/May/2026 13:20:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:18,843 - INFO - Health checked: load=87, status=High Load
+2026-05-24 13:20:18,844 - INFO - 172.18.0.1 - - [24/May/2026 13:20:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:21,824 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:20:21,936 - INFO - 127.0.0.1 - - [24/May/2026 13:20:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:32,049 - INFO - Health checked: load=27, status=Healthy
+2026-05-24 13:20:32,050 - INFO - 127.0.0.1 - - [24/May/2026 13:20:32] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:42,134 - INFO - Health checked: load=27, status=Healthy
+2026-05-24 13:20:42,135 - INFO - 127.0.0.1 - - [24/May/2026 13:20:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:20:52,201 - INFO - Health checked: load=27, status=Healthy
+2026-05-24 13:20:52,202 - INFO - 127.0.0.1 - - [24/May/2026 13:20:52] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:02,263 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:21:02,263 - INFO - 127.0.0.1 - - [24/May/2026 13:21:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:12,351 - INFO - Health checked: load=35, status=Healthy
+2026-05-24 13:21:12,355 - INFO - 127.0.0.1 - - [24/May/2026 13:21:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:19,847 - INFO - Health checked: load=88, status=High Load
+2026-05-24 13:21:19,848 - INFO - 172.18.0.1 - - [24/May/2026 13:21:19] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:22,478 - INFO - Health checked: load=62, status=Healthy
+2026-05-24 13:21:22,479 - INFO - 127.0.0.1 - - [24/May/2026 13:21:22] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:32,545 - INFO - Health checked: load=68, status=Healthy
+2026-05-24 13:21:32,546 - INFO - 127.0.0.1 - - [24/May/2026 13:21:32] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:39,091 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:21:39,092 - INFO - 172.18.0.1 - - [24/May/2026 13:21:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:39,609 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:21:39,610 - INFO - 172.18.0.1 - - [24/May/2026 13:21:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:41,458 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:21:41,459 - INFO - 172.18.0.1 - - [24/May/2026 13:21:41] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:42,671 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:21:42,671 - INFO - 127.0.0.1 - - [24/May/2026 13:21:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:44,842 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:21:44,842 - INFO - 172.18.0.1 - - [24/May/2026 13:21:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:47,846 - INFO - Health checked: load=53, status=Healthy
+2026-05-24 13:21:47,847 - INFO - 172.18.0.1 - - [24/May/2026 13:21:47] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:50,847 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:21:50,848 - INFO - 172.18.0.1 - - [24/May/2026 13:21:50] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:52,746 - INFO - Health checked: load=66, status=Healthy
+2026-05-24 13:21:52,747 - INFO - 127.0.0.1 - - [24/May/2026 13:21:52] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:53,848 - INFO - Health checked: load=23, status=Healthy
+2026-05-24 13:21:53,849 - INFO - 172.18.0.1 - - [24/May/2026 13:21:53] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:56,845 - INFO - Health checked: load=68, status=Healthy
+2026-05-24 13:21:56,846 - INFO - 172.18.0.1 - - [24/May/2026 13:21:56] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:21:59,839 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:21:59,841 - INFO - 172.18.0.1 - - [24/May/2026 13:21:59] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:02,814 - INFO - Health checked: load=49, status=Healthy
+2026-05-24 13:22:02,814 - INFO - 127.0.0.1 - - [24/May/2026 13:22:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:02,828 - INFO - Health checked: load=91, status=High Load
+2026-05-24 13:22:02,828 - INFO - 172.18.0.1 - - [24/May/2026 13:22:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:05,828 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:22:05,828 - INFO - 172.18.0.1 - - [24/May/2026 13:22:05] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:08,832 - INFO - Health checked: load=60, status=Healthy
+2026-05-24 13:22:08,833 - INFO - 172.18.0.1 - - [24/May/2026 13:22:08] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:11,833 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:22:11,834 - INFO - 172.18.0.1 - - [24/May/2026 13:22:11] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:12,921 - INFO - Health checked: load=64, status=Healthy
+2026-05-24 13:22:12,922 - INFO - 127.0.0.1 - - [24/May/2026 13:22:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:14,843 - INFO - Health checked: load=93, status=High Load
+2026-05-24 13:22:14,844 - INFO - 172.18.0.1 - - [24/May/2026 13:22:14] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:17,833 - INFO - Health checked: load=39, status=Healthy
+2026-05-24 13:22:17,834 - INFO - 172.18.0.1 - - [24/May/2026 13:22:17] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:20,846 - INFO - Health checked: load=82, status=Healthy
+2026-05-24 13:22:20,847 - INFO - 172.18.0.1 - - [24/May/2026 13:22:20] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:23,026 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:22:23,027 - INFO - 127.0.0.1 - - [24/May/2026 13:22:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:23,851 - INFO - Health checked: load=32, status=Healthy
+2026-05-24 13:22:23,853 - INFO - 172.18.0.1 - - [24/May/2026 13:22:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:26,854 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:22:26,855 - INFO - 172.18.0.1 - - [24/May/2026 13:22:26] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:29,835 - INFO - Health checked: load=90, status=High Load
+2026-05-24 13:22:29,836 - INFO - 172.18.0.1 - - [24/May/2026 13:22:29] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:32,846 - INFO - Health checked: load=23, status=Healthy
+2026-05-24 13:22:32,848 - INFO - 172.18.0.1 - - [24/May/2026 13:22:32] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:33,113 - INFO - Health checked: load=54, status=Healthy
+2026-05-24 13:22:33,114 - INFO - 127.0.0.1 - - [24/May/2026 13:22:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:35,833 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:22:35,834 - INFO - 172.18.0.1 - - [24/May/2026 13:22:35] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:38,841 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:22:38,842 - INFO - 172.18.0.1 - - [24/May/2026 13:22:38] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:41,836 - INFO - Health checked: load=84, status=Healthy
+2026-05-24 13:22:41,838 - INFO - 172.18.0.1 - - [24/May/2026 13:22:41] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:43,223 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:22:43,224 - INFO - 127.0.0.1 - - [24/May/2026 13:22:43] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:44,836 - INFO - Health checked: load=66, status=Healthy
+2026-05-24 13:22:44,842 - INFO - 172.18.0.1 - - [24/May/2026 13:22:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:22:53,308 - INFO - Health checked: load=38, status=Healthy
+2026-05-24 13:22:53,309 - INFO - 127.0.0.1 - - [24/May/2026 13:22:53] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:03,394 - INFO - Health checked: load=75, status=Healthy
+2026-05-24 13:23:03,395 - INFO - 127.0.0.1 - - [24/May/2026 13:23:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:13,475 - INFO - Health checked: load=90, status=High Load
+2026-05-24 13:23:13,477 - INFO - 127.0.0.1 - - [24/May/2026 13:23:13] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:19,830 - INFO - Health checked: load=86, status=High Load
+2026-05-24 13:23:19,837 - INFO - 172.18.0.1 - - [24/May/2026 13:23:19] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:23,649 - INFO - Health checked: load=26, status=Healthy
+2026-05-24 13:23:23,650 - INFO - 127.0.0.1 - - [24/May/2026 13:23:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:33,772 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:23:33,773 - INFO - 127.0.0.1 - - [24/May/2026 13:23:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:43,841 - INFO - Health checked: load=53, status=Healthy
+2026-05-24 13:23:43,842 - INFO - 127.0.0.1 - - [24/May/2026 13:23:43] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:23:53,949 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:23:53,950 - INFO - 127.0.0.1 - - [24/May/2026 13:23:53] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:04,030 - INFO - Health checked: load=58, status=Healthy
+2026-05-24 13:24:04,030 - INFO - 127.0.0.1 - - [24/May/2026 13:24:04] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:14,101 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:24:14,102 - INFO - 127.0.0.1 - - [24/May/2026 13:24:14] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:16,136 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:24:16,138 - INFO - 172.18.0.1 - - [24/May/2026 13:24:16] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:17,462 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:24:17,463 - INFO - 172.18.0.1 - - [24/May/2026 13:24:17] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:20,841 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:24:20,843 - INFO - 172.18.0.1 - - [24/May/2026 13:24:20] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:23,844 - INFO - Health checked: load=61, status=Healthy
+2026-05-24 13:24:23,845 - INFO - 172.18.0.1 - - [24/May/2026 13:24:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:24,169 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:24:24,170 - INFO - 127.0.0.1 - - [24/May/2026 13:24:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:26,841 - INFO - Health checked: load=72, status=Healthy
+2026-05-24 13:24:26,842 - INFO - 172.18.0.1 - - [24/May/2026 13:24:26] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:29,835 - INFO - Health checked: load=91, status=High Load
+2026-05-24 13:24:29,835 - INFO - 172.18.0.1 - - [24/May/2026 13:24:29] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:32,475 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:24:32,476 - INFO - 172.18.0.1 - - [24/May/2026 13:24:32] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:34,233 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:24:34,234 - INFO - 127.0.0.1 - - [24/May/2026 13:24:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:35,826 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:24:35,827 - INFO - 172.18.0.1 - - [24/May/2026 13:24:35] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:38,863 - INFO - Health checked: load=41, status=Healthy
+2026-05-24 13:24:38,865 - INFO - 172.18.0.1 - - [24/May/2026 13:24:38] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:41,836 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:24:41,837 - INFO - 172.18.0.1 - - [24/May/2026 13:24:41] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:44,325 - INFO - Health checked: load=91, status=High Load
+2026-05-24 13:24:44,326 - INFO - 127.0.0.1 - - [24/May/2026 13:24:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:44,841 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:24:44,842 - INFO - 172.18.0.1 - - [24/May/2026 13:24:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:47,472 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:24:47,474 - INFO - 172.18.0.1 - - [24/May/2026 13:24:47] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:48,047 - INFO - Health checked: load=42, status=Healthy
+2026-05-24 13:24:48,048 - INFO - 172.18.0.1 - - [24/May/2026 13:24:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:50,707 - INFO - Health checked: load=90, status=High Load
+2026-05-24 13:24:50,709 - INFO - 172.18.0.1 - - [24/May/2026 13:24:50] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:51,052 - INFO - Health checked: load=69, status=Healthy
+2026-05-24 13:24:51,054 - INFO - 172.18.0.1 - - [24/May/2026 13:24:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:52,142 - WARNING - Chaos endpoint triggered! Simulating crash...
+2026-05-24 13:24:53,284 - INFO - Recovery detected. Incremented recovery count.
+2026-05-24 13:24:53,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2026-05-24 13:24:53,307 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-24 13:24:54,517 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:24:54,519 - INFO - 172.18.0.1 - - [24/May/2026 13:24:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:24:57,055 - INFO - Health checked: load=29, status=Healthy
+2026-05-24 13:24:57,057 - INFO - 172.18.0.1 - - [24/May/2026 13:24:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:25:02,727 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:25:02,728 - INFO - 127.0.0.1 - - [24/May/2026 13:25:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:25:12,822 - INFO - Health checked: load=26, status=Healthy
+2026-05-24 13:25:12,823 - INFO - 127.0.0.1 - - [24/May/2026 13:25:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:25:22,906 - INFO - Health checked: load=42, status=Healthy
+2026-05-24 13:25:22,907 - INFO - 127.0.0.1 - - [24/May/2026 13:25:22] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:25:32,989 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:25:32,995 - INFO - 127.0.0.1 - - [24/May/2026 13:25:32] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:25:43,088 - INFO - Health checked: load=29, status=Healthy
+2026-05-24 13:25:43,090 - INFO - 127.0.0.1 - - [24/May/2026 13:25:43] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:25:53,170 - INFO - Health checked: load=53, status=Healthy
+2026-05-24 13:25:53,171 - INFO - 127.0.0.1 - - [24/May/2026 13:25:53] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:26:03,241 - INFO - Health checked: load=73, status=Healthy
+2026-05-24 13:26:03,242 - INFO - 127.0.0.1 - - [24/May/2026 13:26:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:26:13,333 - INFO - Health checked: load=49, status=Healthy
+2026-05-24 13:26:13,333 - INFO - 127.0.0.1 - - [24/May/2026 13:26:13] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:26:23,395 - INFO - Health checked: load=65, status=Healthy
+2026-05-24 13:26:23,396 - INFO - 127.0.0.1 - - [24/May/2026 13:26:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:26:33,503 - INFO - Health checked: load=88, status=High Load
+2026-05-24 13:26:33,511 - INFO - 127.0.0.1 - - [24/May/2026 13:26:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:26:43,594 - INFO - Health checked: load=52, status=Healthy
+2026-05-24 13:26:43,595 - INFO - 127.0.0.1 - - [24/May/2026 13:26:43] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:26:53,680 - INFO - Health checked: load=50, status=Healthy
+2026-05-24 13:26:53,681 - INFO - 127.0.0.1 - - [24/May/2026 13:26:53] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:27:03,774 - INFO - Health checked: load=51, status=Healthy
+2026-05-24 13:27:03,781 - INFO - 127.0.0.1 - - [24/May/2026 13:27:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:27:13,866 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:27:13,867 - INFO - 127.0.0.1 - - [24/May/2026 13:27:13] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:27:23,947 - INFO - Health checked: load=75, status=Healthy
+2026-05-24 13:27:23,949 - INFO - 127.0.0.1 - - [24/May/2026 13:27:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:27:34,043 - INFO - Health checked: load=92, status=High Load
+2026-05-24 13:27:34,044 - INFO - 127.0.0.1 - - [24/May/2026 13:27:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:27:44,114 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:27:44,115 - INFO - 127.0.0.1 - - [24/May/2026 13:27:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:27:54,179 - INFO - Health checked: load=23, status=Healthy
+2026-05-24 13:27:54,179 - INFO - 127.0.0.1 - - [24/May/2026 13:27:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:28:04,254 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:28:04,255 - INFO - 127.0.0.1 - - [24/May/2026 13:28:04] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:28:14,347 - INFO - Health checked: load=41, status=Healthy
+2026-05-24 13:28:14,348 - INFO - 127.0.0.1 - - [24/May/2026 13:28:14] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:28:24,426 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:28:24,428 - INFO - 127.0.0.1 - - [24/May/2026 13:28:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:28:34,515 - INFO - Health checked: load=61, status=Healthy
+2026-05-24 13:28:34,516 - INFO - 127.0.0.1 - - [24/May/2026 13:28:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:28:44,602 - INFO - Health checked: load=93, status=High Load
+2026-05-24 13:28:44,603 - INFO - 127.0.0.1 - - [24/May/2026 13:28:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:28:54,729 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:28:54,730 - INFO - 127.0.0.1 - - [24/May/2026 13:28:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:29:04,806 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:29:04,807 - INFO - 127.0.0.1 - - [24/May/2026 13:29:04] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:29:14,884 - INFO - Health checked: load=58, status=Healthy
+2026-05-24 13:29:14,885 - INFO - 127.0.0.1 - - [24/May/2026 13:29:14] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:29:24,962 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:29:24,964 - INFO - 127.0.0.1 - - [24/May/2026 13:29:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:29:35,060 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:29:35,061 - INFO - 127.0.0.1 - - [24/May/2026 13:29:35] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:29:45,137 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:29:45,138 - INFO - 127.0.0.1 - - [24/May/2026 13:29:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:29:55,204 - INFO - Health checked: load=21, status=Healthy
+2026-05-24 13:29:55,205 - INFO - 127.0.0.1 - - [24/May/2026 13:29:55] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:30:05,290 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:30:05,290 - INFO - 127.0.0.1 - - [24/May/2026 13:30:05] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:30:15,366 - INFO - Health checked: load=65, status=Healthy
+2026-05-24 13:30:15,367 - INFO - 127.0.0.1 - - [24/May/2026 13:30:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:30:25,447 - INFO - Health checked: load=73, status=Healthy
+2026-05-24 13:30:25,448 - INFO - 127.0.0.1 - - [24/May/2026 13:30:25] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:30:35,518 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:30:35,519 - INFO - 127.0.0.1 - - [24/May/2026 13:30:35] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:30:45,606 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:30:45,607 - INFO - 127.0.0.1 - - [24/May/2026 13:30:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:30:55,681 - INFO - Health checked: load=73, status=Healthy
+2026-05-24 13:30:55,682 - INFO - 127.0.0.1 - - [24/May/2026 13:30:55] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:31:05,773 - INFO - Health checked: load=62, status=Healthy
+2026-05-24 13:31:05,774 - INFO - 127.0.0.1 - - [24/May/2026 13:31:05] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:31:15,847 - INFO - Health checked: load=61, status=Healthy
+2026-05-24 13:31:15,848 - INFO - 127.0.0.1 - - [24/May/2026 13:31:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:31:25,948 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:31:25,949 - INFO - 127.0.0.1 - - [24/May/2026 13:31:25] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:31:36,013 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:31:36,014 - INFO - 127.0.0.1 - - [24/May/2026 13:31:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:31:46,082 - INFO - Health checked: load=38, status=Healthy
+2026-05-24 13:31:46,083 - INFO - 127.0.0.1 - - [24/May/2026 13:31:46] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:31:56,174 - INFO - Health checked: load=21, status=Healthy
+2026-05-24 13:31:56,176 - INFO - 127.0.0.1 - - [24/May/2026 13:31:56] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:32:06,247 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:32:06,248 - INFO - 127.0.0.1 - - [24/May/2026 13:32:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:32:16,319 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:32:16,320 - INFO - 127.0.0.1 - - [24/May/2026 13:32:16] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:32:26,396 - INFO - Health checked: load=26, status=Healthy
+2026-05-24 13:32:26,397 - INFO - 127.0.0.1 - - [24/May/2026 13:32:26] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:32:36,497 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:32:36,498 - INFO - 127.0.0.1 - - [24/May/2026 13:32:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:32:46,575 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:32:46,576 - INFO - 127.0.0.1 - - [24/May/2026 13:32:46] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:32:56,644 - INFO - Health checked: load=59, status=Healthy
+2026-05-24 13:32:56,645 - INFO - 127.0.0.1 - - [24/May/2026 13:32:56] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:33:06,712 - INFO - Health checked: load=29, status=Healthy
+2026-05-24 13:33:06,713 - INFO - 127.0.0.1 - - [24/May/2026 13:33:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:33:16,818 - INFO - Health checked: load=69, status=Healthy
+2026-05-24 13:33:16,819 - INFO - 127.0.0.1 - - [24/May/2026 13:33:16] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:33:26,890 - INFO - Health checked: load=26, status=Healthy
+2026-05-24 13:33:26,891 - INFO - 127.0.0.1 - - [24/May/2026 13:33:26] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:33:36,976 - INFO - Health checked: load=87, status=High Load
+2026-05-24 13:33:36,977 - INFO - 127.0.0.1 - - [24/May/2026 13:33:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:33:47,064 - INFO - Health checked: load=62, status=Healthy
+2026-05-24 13:33:47,065 - INFO - 127.0.0.1 - - [24/May/2026 13:33:47] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:33:57,146 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:33:57,147 - INFO - 127.0.0.1 - - [24/May/2026 13:33:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:34:07,223 - INFO - Health checked: load=95, status=High Load
+2026-05-24 13:34:07,224 - INFO - 127.0.0.1 - - [24/May/2026 13:34:07] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:34:17,309 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:34:17,310 - INFO - 127.0.0.1 - - [24/May/2026 13:34:17] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:34:27,394 - INFO - Health checked: load=20, status=Healthy
+2026-05-24 13:34:27,395 - INFO - 127.0.0.1 - - [24/May/2026 13:34:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:34:37,476 - INFO - Health checked: load=33, status=Healthy
+2026-05-24 13:34:37,478 - INFO - 127.0.0.1 - - [24/May/2026 13:34:37] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:34:47,582 - INFO - Health checked: load=31, status=Healthy
+2026-05-24 13:34:47,583 - INFO - 127.0.0.1 - - [24/May/2026 13:34:47] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:34:57,667 - INFO - Health checked: load=31, status=Healthy
+2026-05-24 13:34:57,667 - INFO - 127.0.0.1 - - [24/May/2026 13:34:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:35:07,753 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:35:07,754 - INFO - 127.0.0.1 - - [24/May/2026 13:35:07] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:35:17,836 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:35:17,837 - INFO - 127.0.0.1 - - [24/May/2026 13:35:17] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:35:27,940 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:35:27,941 - INFO - 127.0.0.1 - - [24/May/2026 13:35:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:35:38,034 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:35:38,035 - INFO - 127.0.0.1 - - [24/May/2026 13:35:38] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:35:48,120 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:35:48,121 - INFO - 127.0.0.1 - - [24/May/2026 13:35:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:35:58,191 - INFO - Health checked: load=92, status=High Load
+2026-05-24 13:35:58,192 - INFO - 127.0.0.1 - - [24/May/2026 13:35:58] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:36:08,294 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:36:08,295 - INFO - 127.0.0.1 - - [24/May/2026 13:36:08] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:36:18,400 - INFO - Health checked: load=43, status=Healthy
+2026-05-24 13:36:18,405 - INFO - 127.0.0.1 - - [24/May/2026 13:36:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:36:28,485 - INFO - Health checked: load=69, status=Healthy
+2026-05-24 13:36:28,486 - INFO - 127.0.0.1 - - [24/May/2026 13:36:28] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:36:38,545 - INFO - Health checked: load=50, status=Healthy
+2026-05-24 13:36:38,547 - INFO - 127.0.0.1 - - [24/May/2026 13:36:38] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:36:48,630 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:36:48,632 - INFO - 127.0.0.1 - - [24/May/2026 13:36:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:36:58,701 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:36:58,702 - INFO - 127.0.0.1 - - [24/May/2026 13:36:58] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:37:08,789 - INFO - Health checked: load=57, status=Healthy
+2026-05-24 13:37:08,790 - INFO - 127.0.0.1 - - [24/May/2026 13:37:08] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:37:18,874 - INFO - Health checked: load=45, status=Healthy
+2026-05-24 13:37:18,876 - INFO - 127.0.0.1 - - [24/May/2026 13:37:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:37:29,026 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:37:29,029 - INFO - 127.0.0.1 - - [24/May/2026 13:37:29] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:37:39,170 - INFO - Health checked: load=20, status=Healthy
+2026-05-24 13:37:39,172 - INFO - 127.0.0.1 - - [24/May/2026 13:37:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:37:49,313 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:37:49,339 - INFO - 127.0.0.1 - - [24/May/2026 13:37:49] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:37:59,457 - INFO - Health checked: load=88, status=High Load
+2026-05-24 13:37:59,459 - INFO - 127.0.0.1 - - [24/May/2026 13:37:59] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:38:09,629 - INFO - Health checked: load=38, status=Healthy
+2026-05-24 13:38:09,635 - INFO - 127.0.0.1 - - [24/May/2026 13:38:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:38:19,791 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:38:19,792 - INFO - 127.0.0.1 - - [24/May/2026 13:38:19] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:38:29,961 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:38:29,963 - INFO - 127.0.0.1 - - [24/May/2026 13:38:29] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:38:40,098 - INFO - Health checked: load=61, status=Healthy
+2026-05-24 13:38:40,100 - INFO - 127.0.0.1 - - [24/May/2026 13:38:40] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:38:50,225 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:38:50,227 - INFO - 127.0.0.1 - - [24/May/2026 13:38:50] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:39:00,358 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:39:00,360 - INFO - 127.0.0.1 - - [24/May/2026 13:39:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:39:10,496 - INFO - Health checked: load=32, status=Healthy
+2026-05-24 13:39:10,497 - INFO - 127.0.0.1 - - [24/May/2026 13:39:10] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:39:20,644 - INFO - Health checked: load=81, status=Healthy
+2026-05-24 13:39:20,646 - INFO - 127.0.0.1 - - [24/May/2026 13:39:20] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:39:30,774 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:39:30,776 - INFO - 127.0.0.1 - - [24/May/2026 13:39:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:39:40,916 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:39:40,918 - INFO - 127.0.0.1 - - [24/May/2026 13:39:40] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:39:51,089 - INFO - Health checked: load=57, status=Healthy
+2026-05-24 13:39:51,142 - INFO - 127.0.0.1 - - [24/May/2026 13:39:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:00,490 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:40:00,491 - INFO - 172.18.0.1 - - [24/May/2026 13:40:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:01,304 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:40:01,306 - INFO - 127.0.0.1 - - [24/May/2026 13:40:01] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:03,497 - INFO - Health checked: load=69, status=Healthy
+2026-05-24 13:40:03,499 - INFO - 172.18.0.1 - - [24/May/2026 13:40:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:06,495 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:40:06,500 - INFO - 172.18.0.1 - - [24/May/2026 13:40:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:09,504 - INFO - Health checked: load=31, status=Healthy
+2026-05-24 13:40:09,511 - INFO - 172.18.0.1 - - [24/May/2026 13:40:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:11,483 - INFO - Health checked: load=93, status=High Load
+2026-05-24 13:40:11,485 - INFO - 127.0.0.1 - - [24/May/2026 13:40:11] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:12,843 - INFO - Health checked: load=40, status=Healthy
+2026-05-24 13:40:12,848 - INFO - 172.18.0.1 - - [24/May/2026 13:40:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:15,849 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:40:15,850 - INFO - 172.18.0.1 - - [24/May/2026 13:40:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:18,900 - INFO - Health checked: load=22, status=Healthy
+2026-05-24 13:40:18,902 - INFO - 172.18.0.1 - - [24/May/2026 13:40:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:21,631 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:40:21,633 - INFO - 127.0.0.1 - - [24/May/2026 13:40:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:21,837 - INFO - Health checked: load=74, status=Healthy
+2026-05-24 13:40:21,839 - INFO - 172.18.0.1 - - [24/May/2026 13:40:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:24,840 - INFO - Health checked: load=53, status=Healthy
+2026-05-24 13:40:24,844 - INFO - 172.18.0.1 - - [24/May/2026 13:40:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:27,827 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:40:27,829 - INFO - 172.18.0.1 - - [24/May/2026 13:40:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:30,839 - INFO - Health checked: load=65, status=Healthy
+2026-05-24 13:40:30,841 - INFO - 172.18.0.1 - - [24/May/2026 13:40:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:31,783 - INFO - Health checked: load=37, status=Healthy
+2026-05-24 13:40:31,784 - INFO - 127.0.0.1 - - [24/May/2026 13:40:31] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:33,845 - INFO - Health checked: load=62, status=Healthy
+2026-05-24 13:40:33,847 - INFO - 172.18.0.1 - - [24/May/2026 13:40:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:36,834 - INFO - Health checked: load=66, status=Healthy
+2026-05-24 13:40:36,836 - INFO - 172.18.0.1 - - [24/May/2026 13:40:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:39,836 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:40:39,892 - INFO - 172.18.0.1 - - [24/May/2026 13:40:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:41,928 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:40:41,930 - INFO - 127.0.0.1 - - [24/May/2026 13:40:41] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:42,850 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:40:42,855 - INFO - 172.18.0.1 - - [24/May/2026 13:40:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:45,841 - INFO - Health checked: load=55, status=Healthy
+2026-05-24 13:40:45,843 - INFO - 172.18.0.1 - - [24/May/2026 13:40:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:48,847 - INFO - Health checked: load=21, status=Healthy
+2026-05-24 13:40:48,848 - INFO - 172.18.0.1 - - [24/May/2026 13:40:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:51,843 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:40:51,849 - INFO - 172.18.0.1 - - [24/May/2026 13:40:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:52,056 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:40:52,058 - INFO - 127.0.0.1 - - [24/May/2026 13:40:52] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:54,833 - INFO - Health checked: load=54, status=Healthy
+2026-05-24 13:40:54,835 - INFO - 172.18.0.1 - - [24/May/2026 13:40:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:40:57,848 - INFO - Health checked: load=60, status=Healthy
+2026-05-24 13:40:57,852 - INFO - 172.18.0.1 - - [24/May/2026 13:40:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:00,845 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:41:00,847 - INFO - 172.18.0.1 - - [24/May/2026 13:41:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:02,171 - INFO - Health checked: load=45, status=Healthy
+2026-05-24 13:41:02,172 - INFO - 127.0.0.1 - - [24/May/2026 13:41:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:03,846 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:41:03,848 - INFO - 172.18.0.1 - - [24/May/2026 13:41:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:06,845 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:41:06,846 - INFO - 172.18.0.1 - - [24/May/2026 13:41:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:09,862 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:41:09,863 - INFO - 172.18.0.1 - - [24/May/2026 13:41:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:12,283 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:41:12,285 - INFO - 127.0.0.1 - - [24/May/2026 13:41:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:12,864 - INFO - Health checked: load=50, status=Healthy
+2026-05-24 13:41:12,867 - INFO - 172.18.0.1 - - [24/May/2026 13:41:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:15,854 - INFO - Health checked: load=59, status=Healthy
+2026-05-24 13:41:15,856 - INFO - 172.18.0.1 - - [24/May/2026 13:41:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:18,880 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:41:18,889 - INFO - 172.18.0.1 - - [24/May/2026 13:41:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:21,836 - INFO - Health checked: load=28, status=Healthy
+2026-05-24 13:41:21,837 - INFO - 172.18.0.1 - - [24/May/2026 13:41:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:22,417 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:41:22,418 - INFO - 127.0.0.1 - - [24/May/2026 13:41:22] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:24,839 - INFO - Health checked: load=35, status=Healthy
+2026-05-24 13:41:24,842 - INFO - 172.18.0.1 - - [24/May/2026 13:41:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:27,849 - INFO - Health checked: load=39, status=Healthy
+2026-05-24 13:41:27,851 - INFO - 172.18.0.1 - - [24/May/2026 13:41:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:30,842 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:41:30,844 - INFO - 172.18.0.1 - - [24/May/2026 13:41:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:32,525 - INFO - Health checked: load=31, status=Healthy
+2026-05-24 13:41:32,527 - INFO - 127.0.0.1 - - [24/May/2026 13:41:32] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:33,846 - INFO - Health checked: load=39, status=Healthy
+2026-05-24 13:41:33,850 - INFO - 172.18.0.1 - - [24/May/2026 13:41:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:36,833 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:41:36,834 - INFO - 172.18.0.1 - - [24/May/2026 13:41:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:39,839 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:41:39,843 - INFO - 172.18.0.1 - - [24/May/2026 13:41:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:42,676 - INFO - Health checked: load=41, status=Healthy
+2026-05-24 13:41:42,677 - INFO - 127.0.0.1 - - [24/May/2026 13:41:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:42,835 - INFO - Health checked: load=22, status=Healthy
+2026-05-24 13:41:42,836 - INFO - 172.18.0.1 - - [24/May/2026 13:41:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:45,838 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:41:45,840 - INFO - 172.18.0.1 - - [24/May/2026 13:41:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:48,834 - INFO - Health checked: load=22, status=Healthy
+2026-05-24 13:41:48,836 - INFO - 172.18.0.1 - - [24/May/2026 13:41:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:51,841 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:41:51,843 - INFO - 172.18.0.1 - - [24/May/2026 13:41:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:52,802 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:41:52,803 - INFO - 127.0.0.1 - - [24/May/2026 13:41:52] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:54,841 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:41:54,844 - INFO - 172.18.0.1 - - [24/May/2026 13:41:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:41:57,845 - INFO - Health checked: load=91, status=High Load
+2026-05-24 13:41:57,846 - INFO - 172.18.0.1 - - [24/May/2026 13:41:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:00,835 - INFO - Health checked: load=21, status=Healthy
+2026-05-24 13:42:00,836 - INFO - 172.18.0.1 - - [24/May/2026 13:42:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:02,937 - INFO - Health checked: load=92, status=High Load
+2026-05-24 13:42:02,939 - INFO - 127.0.0.1 - - [24/May/2026 13:42:02] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:03,834 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:42:03,835 - INFO - 172.18.0.1 - - [24/May/2026 13:42:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:06,838 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:42:06,840 - INFO - 172.18.0.1 - - [24/May/2026 13:42:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:09,843 - INFO - Health checked: load=58, status=Healthy
+2026-05-24 13:42:09,845 - INFO - 172.18.0.1 - - [24/May/2026 13:42:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:12,840 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:42:12,841 - INFO - 172.18.0.1 - - [24/May/2026 13:42:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:13,088 - INFO - Health checked: load=48, status=Healthy
+2026-05-24 13:42:13,090 - INFO - 127.0.0.1 - - [24/May/2026 13:42:13] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:15,844 - INFO - Health checked: load=89, status=High Load
+2026-05-24 13:42:15,846 - INFO - 172.18.0.1 - - [24/May/2026 13:42:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:18,843 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:42:18,844 - INFO - 172.18.0.1 - - [24/May/2026 13:42:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:21,845 - INFO - Health checked: load=67, status=Healthy
+2026-05-24 13:42:21,847 - INFO - 172.18.0.1 - - [24/May/2026 13:42:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:23,240 - INFO - Health checked: load=75, status=Healthy
+2026-05-24 13:42:23,242 - INFO - 127.0.0.1 - - [24/May/2026 13:42:23] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:24,831 - INFO - Health checked: load=86, status=High Load
+2026-05-24 13:42:24,833 - INFO - 172.18.0.1 - - [24/May/2026 13:42:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:27,861 - INFO - Health checked: load=32, status=Healthy
+2026-05-24 13:42:27,863 - INFO - 172.18.0.1 - - [24/May/2026 13:42:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:30,842 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:42:30,844 - INFO - 172.18.0.1 - - [24/May/2026 13:42:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:33,365 - INFO - Health checked: load=90, status=High Load
+2026-05-24 13:42:33,367 - INFO - 127.0.0.1 - - [24/May/2026 13:42:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:33,846 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:42:33,849 - INFO - 172.18.0.1 - - [24/May/2026 13:42:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:36,887 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:42:36,889 - INFO - 172.18.0.1 - - [24/May/2026 13:42:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:39,849 - INFO - Health checked: load=46, status=Healthy
+2026-05-24 13:42:39,851 - INFO - 172.18.0.1 - - [24/May/2026 13:42:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:42,860 - INFO - Health checked: load=45, status=Healthy
+2026-05-24 13:42:42,862 - INFO - 172.18.0.1 - - [24/May/2026 13:42:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:43,537 - INFO - Health checked: load=78, status=Healthy
+2026-05-24 13:42:43,540 - INFO - 127.0.0.1 - - [24/May/2026 13:42:43] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:45,836 - INFO - Health checked: load=81, status=Healthy
+2026-05-24 13:42:45,837 - INFO - 172.18.0.1 - - [24/May/2026 13:42:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:48,837 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:42:48,839 - INFO - 172.18.0.1 - - [24/May/2026 13:42:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:51,844 - INFO - Health checked: load=39, status=Healthy
+2026-05-24 13:42:51,846 - INFO - 172.18.0.1 - - [24/May/2026 13:42:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:53,657 - INFO - Health checked: load=41, status=Healthy
+2026-05-24 13:42:53,659 - INFO - 127.0.0.1 - - [24/May/2026 13:42:53] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:54,845 - INFO - Health checked: load=42, status=Healthy
+2026-05-24 13:42:54,846 - INFO - 172.18.0.1 - - [24/May/2026 13:42:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:42:57,840 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:42:57,843 - INFO - 172.18.0.1 - - [24/May/2026 13:42:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:00,837 - INFO - Health checked: load=33, status=Healthy
+2026-05-24 13:43:00,840 - INFO - 172.18.0.1 - - [24/May/2026 13:43:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:03,780 - INFO - Health checked: load=22, status=Healthy
+2026-05-24 13:43:03,783 - INFO - 127.0.0.1 - - [24/May/2026 13:43:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:03,832 - INFO - Health checked: load=62, status=Healthy
+2026-05-24 13:43:03,833 - INFO - 172.18.0.1 - - [24/May/2026 13:43:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:06,844 - INFO - Health checked: load=63, status=Healthy
+2026-05-24 13:43:06,846 - INFO - 172.18.0.1 - - [24/May/2026 13:43:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:09,850 - INFO - Health checked: load=21, status=Healthy
+2026-05-24 13:43:09,856 - INFO - 172.18.0.1 - - [24/May/2026 13:43:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:12,831 - INFO - Health checked: load=75, status=Healthy
+2026-05-24 13:43:12,833 - INFO - 172.18.0.1 - - [24/May/2026 13:43:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:13,910 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:43:13,912 - INFO - 127.0.0.1 - - [24/May/2026 13:43:13] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:15,837 - INFO - Health checked: load=68, status=Healthy
+2026-05-24 13:43:15,838 - INFO - 172.18.0.1 - - [24/May/2026 13:43:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:18,839 - INFO - Health checked: load=30, status=Healthy
+2026-05-24 13:43:18,840 - INFO - 172.18.0.1 - - [24/May/2026 13:43:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:21,850 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:43:21,852 - INFO - 172.18.0.1 - - [24/May/2026 13:43:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:24,049 - INFO - Health checked: load=51, status=Healthy
+2026-05-24 13:43:24,058 - INFO - 127.0.0.1 - - [24/May/2026 13:43:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:24,831 - INFO - Health checked: load=52, status=Healthy
+2026-05-24 13:43:24,833 - INFO - 172.18.0.1 - - [24/May/2026 13:43:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:27,838 - INFO - Health checked: load=93, status=High Load
+2026-05-24 13:43:27,839 - INFO - 172.18.0.1 - - [24/May/2026 13:43:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:30,836 - INFO - Health checked: load=67, status=Healthy
+2026-05-24 13:43:30,838 - INFO - 172.18.0.1 - - [24/May/2026 13:43:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:33,852 - INFO - Health checked: load=22, status=Healthy
+2026-05-24 13:43:33,863 - INFO - 172.18.0.1 - - [24/May/2026 13:43:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:34,179 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:43:34,181 - INFO - 127.0.0.1 - - [24/May/2026 13:43:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:36,840 - INFO - Health checked: load=34, status=Healthy
+2026-05-24 13:43:36,842 - INFO - 172.18.0.1 - - [24/May/2026 13:43:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:39,837 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:43:39,839 - INFO - 172.18.0.1 - - [24/May/2026 13:43:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:42,845 - INFO - Health checked: load=45, status=Healthy
+2026-05-24 13:43:42,847 - INFO - 172.18.0.1 - - [24/May/2026 13:43:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:44,337 - INFO - Health checked: load=56, status=Healthy
+2026-05-24 13:43:44,338 - INFO - 127.0.0.1 - - [24/May/2026 13:43:44] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:45,843 - INFO - Health checked: load=52, status=Healthy
+2026-05-24 13:43:45,846 - INFO - 172.18.0.1 - - [24/May/2026 13:43:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:48,880 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:43:48,891 - INFO - 172.18.0.1 - - [24/May/2026 13:43:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:51,835 - INFO - Health checked: load=79, status=Healthy
+2026-05-24 13:43:51,837 - INFO - 172.18.0.1 - - [24/May/2026 13:43:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:54,449 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:43:54,451 - INFO - 127.0.0.1 - - [24/May/2026 13:43:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:54,842 - INFO - Health checked: load=50, status=Healthy
+2026-05-24 13:43:54,844 - INFO - 172.18.0.1 - - [24/May/2026 13:43:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:43:57,841 - INFO - Health checked: load=60, status=Healthy
+2026-05-24 13:43:57,845 - INFO - 172.18.0.1 - - [24/May/2026 13:43:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:00,830 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:44:00,831 - INFO - 172.18.0.1 - - [24/May/2026 13:44:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:03,843 - INFO - Health checked: load=40, status=Healthy
+2026-05-24 13:44:03,849 - INFO - 172.18.0.1 - - [24/May/2026 13:44:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:04,571 - INFO - Health checked: load=94, status=High Load
+2026-05-24 13:44:04,573 - INFO - 127.0.0.1 - - [24/May/2026 13:44:04] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:06,834 - INFO - Health checked: load=38, status=Healthy
+2026-05-24 13:44:06,835 - INFO - 172.18.0.1 - - [24/May/2026 13:44:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:09,843 - INFO - Health checked: load=77, status=Healthy
+2026-05-24 13:44:09,846 - INFO - 172.18.0.1 - - [24/May/2026 13:44:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:12,833 - INFO - Health checked: load=62, status=Healthy
+2026-05-24 13:44:12,835 - INFO - 172.18.0.1 - - [24/May/2026 13:44:12] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:14,712 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:44:14,714 - INFO - 127.0.0.1 - - [24/May/2026 13:44:14] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:15,886 - INFO - Health checked: load=20, status=Healthy
+2026-05-24 13:44:15,888 - INFO - 172.18.0.1 - - [24/May/2026 13:44:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:18,841 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:44:18,842 - INFO - 172.18.0.1 - - [24/May/2026 13:44:18] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:21,845 - INFO - Health checked: load=65, status=Healthy
+2026-05-24 13:44:21,846 - INFO - 172.18.0.1 - - [24/May/2026 13:44:21] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:24,831 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:44:24,833 - INFO - 127.0.0.1 - - [24/May/2026 13:44:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:24,847 - INFO - Health checked: load=76, status=Healthy
+2026-05-24 13:44:24,853 - INFO - 172.18.0.1 - - [24/May/2026 13:44:24] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:27,855 - INFO - Health checked: load=24, status=Healthy
+2026-05-24 13:44:27,856 - INFO - 172.18.0.1 - - [24/May/2026 13:44:27] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:30,841 - INFO - Health checked: load=25, status=Healthy
+2026-05-24 13:44:30,843 - INFO - 172.18.0.1 - - [24/May/2026 13:44:30] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:33,843 - INFO - Health checked: load=68, status=Healthy
+2026-05-24 13:44:33,844 - INFO - 172.18.0.1 - - [24/May/2026 13:44:33] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:34,981 - INFO - Health checked: load=44, status=Healthy
+2026-05-24 13:44:34,983 - INFO - 127.0.0.1 - - [24/May/2026 13:44:34] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:36,859 - INFO - Health checked: load=95, status=High Load
+2026-05-24 13:44:36,861 - INFO - 172.18.0.1 - - [24/May/2026 13:44:36] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:39,858 - INFO - Health checked: load=64, status=Healthy
+2026-05-24 13:44:39,860 - INFO - 172.18.0.1 - - [24/May/2026 13:44:39] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:42,836 - INFO - Health checked: load=51, status=Healthy
+2026-05-24 13:44:42,838 - INFO - 172.18.0.1 - - [24/May/2026 13:44:42] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:45,143 - INFO - Health checked: load=23, status=Healthy
+2026-05-24 13:44:45,145 - INFO - 127.0.0.1 - - [24/May/2026 13:44:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:45,842 - INFO - Health checked: load=68, status=Healthy
+2026-05-24 13:44:45,843 - INFO - 172.18.0.1 - - [24/May/2026 13:44:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:48,842 - INFO - Health checked: load=64, status=Healthy
+2026-05-24 13:44:48,844 - INFO - 172.18.0.1 - - [24/May/2026 13:44:48] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:51,834 - INFO - Health checked: load=61, status=Healthy
+2026-05-24 13:44:51,835 - INFO - 172.18.0.1 - - [24/May/2026 13:44:51] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:54,843 - INFO - Health checked: load=93, status=High Load
+2026-05-24 13:44:54,844 - INFO - 172.18.0.1 - - [24/May/2026 13:44:54] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:55,244 - INFO - Health checked: load=32, status=Healthy
+2026-05-24 13:44:55,245 - INFO - 127.0.0.1 - - [24/May/2026 13:44:55] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:44:57,842 - INFO - Health checked: load=83, status=Healthy
+2026-05-24 13:44:57,844 - INFO - 172.18.0.1 - - [24/May/2026 13:44:57] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:00,837 - INFO - Health checked: load=85, status=Healthy
+2026-05-24 13:45:00,838 - INFO - 172.18.0.1 - - [24/May/2026 13:45:00] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:03,834 - INFO - Health checked: load=51, status=Healthy
+2026-05-24 13:45:03,838 - INFO - 172.18.0.1 - - [24/May/2026 13:45:03] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:05,367 - INFO - Health checked: load=66, status=Healthy
+2026-05-24 13:45:05,369 - INFO - 127.0.0.1 - - [24/May/2026 13:45:05] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:06,831 - INFO - Health checked: load=93, status=High Load
+2026-05-24 13:45:06,834 - INFO - 172.18.0.1 - - [24/May/2026 13:45:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:09,845 - INFO - Health checked: load=59, status=Healthy
+2026-05-24 13:45:09,846 - INFO - 172.18.0.1 - - [24/May/2026 13:45:09] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:15,487 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:45:15,488 - INFO - 127.0.0.1 - - [24/May/2026 13:45:15] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:19,841 - INFO - Health checked: load=73, status=Healthy
+2026-05-24 13:45:19,843 - INFO - 172.18.0.1 - - [24/May/2026 13:45:19] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:25,614 - INFO - Health checked: load=47, status=Healthy
+2026-05-24 13:45:25,615 - INFO - 127.0.0.1 - - [24/May/2026 13:45:25] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:35,728 - INFO - Health checked: load=45, status=Healthy
+2026-05-24 13:45:35,730 - INFO - 127.0.0.1 - - [24/May/2026 13:45:35] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:45,839 - INFO - Health checked: load=91, status=High Load
+2026-05-24 13:45:45,841 - INFO - 127.0.0.1 - - [24/May/2026 13:45:45] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:45:55,952 - INFO - Health checked: load=31, status=Healthy
+2026-05-24 13:45:55,954 - INFO - 127.0.0.1 - - [24/May/2026 13:45:55] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:46:06,142 - INFO - Health checked: load=39, status=Healthy
+2026-05-24 13:46:06,144 - INFO - 127.0.0.1 - - [24/May/2026 13:46:06] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:46:16,277 - INFO - Health checked: load=26, status=Healthy
+2026-05-24 13:46:16,279 - INFO - 127.0.0.1 - - [24/May/2026 13:46:16] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:46:19,860 - INFO - Health checked: load=38, status=Healthy
+2026-05-24 13:46:19,867 - INFO - 172.18.0.1 - - [24/May/2026 13:46:19] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:46:26,402 - INFO - Health checked: load=60, status=Healthy
+2026-05-24 13:46:26,404 - INFO - 127.0.0.1 - - [24/May/2026 13:46:26] "GET /health HTTP/1.1" 200 -
+2026-05-24 13:46:36,524 - INFO - Health checked: load=88, status=High Load
+2026-05-24 13:46:36,526 - INFO - 127.0.0.1 - - [24/May/2026 13:46:36] "GET /health HTTP/1.1" 200 -

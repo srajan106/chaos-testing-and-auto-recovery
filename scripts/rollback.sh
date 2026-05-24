@@ -1,18 +1,27 @@
 #!/bin/bash
 
-echo "Rollback initiated"
+LOG_FILE="logs/rollback.log"
+BACKUP_FILE="backups/previous-image.txt"
 
-IMAGE=$(cat backups/previous-image.txt)
+mkdir -p logs backups
 
-docker stop myapp
+echo "⏪ Rollback initiated..." | tee -a $LOG_FILE
 
-docker rm myapp
+# Check if backup exists
+if [ ! -f $BACKUP_FILE ]; then
+    echo "❌ No backup image found!" | tee -a $LOG_FILE
+    exit 1
+fi
 
-docker run -d \
---name myapp \
---restart always \
--p 5000:5000 \
-$IMAGE
+IMAGE=$(cat $BACKUP_FILE)
 
+echo "Using backup image: $IMAGE" | tee -a $LOG_FILE
 
-echo "Rollback completed"
+# Stop current service
+docker compose down
+
+# Start with previous image
+docker compose up -d --build
+
+echo "✅ Rollback completed successfully" | tee -a $LOG_FILE
+echo "----------------------------------------" | tee -a $LOG_FILE

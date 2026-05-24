@@ -1,52 +1,54 @@
-async function refresh(){
+let lastState = true;
 
-try{
+async function refresh() {
 
-let response =
-await fetch(
-"http://localhost:5000/health"
-);
+    try {
+        let response = await fetch("http://localhost:5000/health");
+        let data = await response.json();
 
-let data=
-await response.json();
+        // Detect recovery
+        if (lastState === false) {
+            document.getElementById("status").innerText = "Recovered ✅";
+            document.getElementById("status").style.color = "green";
+        } else {
+            document.getElementById("status").innerText = data.status;
 
-document.getElementById(
-"status"
-).innerText=
-"Status: "+data.status;
+            // Color based on status
+            if (data.status === "Healthy") {
+                document.getElementById("status").style.color = "green";
+            } else {
+                document.getElementById("status").style.color = "orange";
+            }
+        }
 
-document.getElementById(
-"time"
-).innerText=
-"Time: "+data.time;
+        lastState = true;
 
-document.getElementById(
-"recoveries"
-).innerText=
-"Recoveries: "+data.recoveries;
+        document.getElementById("time").innerText = data.time;
+        document.getElementById("recoveries").innerText = data.recoveries;
+        document.getElementById("load").innerText = data.server_load + "%";
 
-document.getElementById(
-"load"
-).innerText=
-"Load: "+data.server_load+"%";
+    } catch (error) {
 
-}
-catch(error){
+        lastState = false;
 
-document.getElementById(
-"status"
-).innerText=
-"Backend connection failed";
+        document.getElementById("status").innerText = "DOWN ❌";
+        document.getElementById("status").style.color = "red";
 
-console.log(error);
-
+        document.getElementById("time").innerText = "-";
+        document.getElementById("recoveries").innerText = "-";
+        document.getElementById("load").innerText = "-";
+    }
 }
 
+// 🔥 Chaos trigger
+function triggerChaos() {
+    fetch("http://localhost:5000/chaos")
+        .then(() => alert("Chaos triggered! Server will crash 💥"))
+        .catch(() => alert("Server already down (expected)"));
 }
 
+// Initial call
 refresh();
 
-setInterval(
-refresh,
-3000
-);
+// Auto refresh every 3 seconds
+setInterval(refresh, 3000);
